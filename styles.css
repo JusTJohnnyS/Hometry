@@ -1,0 +1,159 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+.lesson{
+  text-align: center;
+  font-weight: bold;
+  font-size:100px;
+  font-style: italic;
+}
+
+h1{
+  text-align: center;
+  margin:24px 0;
+  text-decoration: underline;
+}
+.container{
+  border:2px solid black;
+  padding:16px;
+  display:flex;
+  justify-content: space-between;
+  margin:8px 16px;
+}
+
+.box,
+.boxtwo{
+  width:100px;
+  height:100px;
+  border:2px solid black;
+}
+
+.box-small_wrapper{
+  display:flex;
+  align-items: center;
+  
+}
+
+.box-small{
+  width:50px;
+  height:50px;
+  margin:0 8px;
+}
+
+
+/* Layout 2  */
+
+
+.containertwo{
+  border:2px solid black;
+  padding:16px;
+  margin:0 16px;
+}
+
+.row,
+.rowthree{
+  width:100%;
+  max-width:800px;
+  margin:0 auto;
+}
+
+.title{
+  width:100%;
+  height:30px;
+  border:1px solid black;
+  margin-bottom:24px;
+}
+
+.boxtwo_warpper{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.boxtwo{
+  /*width:calc(100% / 3); -> more porcise 33.3333333 */ 
+  width:30%;
+  margin-bottom:24px;
+}
+
+
+
+/*   Layout 3   */
+
+
+.containerthree{
+  border:2px solid black;
+  padding:24px 24px 0 24px;
+  
+}
+
+.rowthree{
+  display:flex;
+  justify-content: space-between;
+}
+
+.boxthree{
+  
+  border: 2px solid black;
+  margin-bottom:24px;
+}
+
+.boxthree_small{
+  height:50px;
+}
+
+.boxthree_warpper{
+  width:45%;
+  
+}
+
+.boxthree_big{
+  width:45%;
+  
+}
+
+/*  Layout 4  */ 
+
+.containerfour{
+  border:2px solid black;
+  padding:24px 24px 0 24px;
+  
+}
+
+.rowfour{
+  display:flex;
+  justify-content: space-between;
+}
+
+.boxfour{
+  
+  border: 2px solid black;
+  margin-bottom:24px;
+}
+
+.boxfour_small{
+  height:50px;
+}
+
+.boxfour_tiny-wrapper{
+  display:flex;
+  justify-content: space-between;
+}
+
+.boxfour_tiny{
+  width:30%;
+  height:50px;
+}
+
+.boxfour_warpper{
+  width:45%;
+
+}
+
+.boxfour_big{
+  width:45%;
+  
+}
